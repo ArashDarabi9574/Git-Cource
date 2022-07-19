@@ -1,7 +1,7 @@
 import hashlib
 import csv
 from collections import OrderedDict
-with open('/home/adn/Documents/Python cource/Sesson 6/a.csv') as reader:
+with open('/home/adn/Documents/git-Cource/a.csv') as reader:
     reader = csv.reader(reader)
     mydict = OrderedDict()
     dict_res = OrderedDict()
@@ -15,7 +15,7 @@ with open('/home/adn/Documents/Python cource/Sesson 6/a.csv') as reader:
         for key in short_cut:
             if our_hashlib == key:
                 dict_res[our_name] = mydict.get(key)
-with open('/home/adn/Documents/Python cource/Sesson 6/1.csv', 'w') as result:
+with open('/home/adn/Documents/git-cource/1.csv', 'w') as result:
         this_counter = 0
         for i in dict_res:
             this_counter += 1
