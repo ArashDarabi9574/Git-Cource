@@ -24,3 +24,4 @@ def hash_password_hack(input_file_name, output_file_name):
                 result.write(i + ',' + str(dict_res.get(i)))
             else:
                 result.write('\n' + i + ',' + str(dict_res.get(i)))
+# by arash darabi
