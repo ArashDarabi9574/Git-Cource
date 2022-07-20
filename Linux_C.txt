@@ -1,0 +1,30 @@
+man timedatectl
+man hwclock
+man who
+man adduser -c -g -s
+echo /etc/loging.conf passd
+man addgroup
+systemctl -t -help
+systemctl list-unit-files --failed
+systemctl status service
+systemctl list-unit-files | grep target
+systemctl list-dependecies (targetname)
+systemctl isolate emergency.target
+systemctl start graphical.target
+jobs
+top / htop
+kill [PID]
+mount /unmount
+ip a/ addr
+DHCP
+resolv.conf
+del & add defulat via
+ip addr add/del
+dhclinet
+subnetmask
+man hostnamectl
+/ets/hosts
+ping for check conectiom
+dig show dns! status is important
+what is nmap
+resul conf is important
